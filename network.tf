@@ -4,6 +4,6 @@ module "vpc" {
   cluster_prefix        = "source4learn"
   cluster_environment   = "development"
   cluster_architecture  = "3-tier"
-  cidr                  = "10.0.0.0/16"
+  cidr                  = "10.0.0.0/20"
   subnet_bits           = "4"
 }
